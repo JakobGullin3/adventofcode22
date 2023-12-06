@@ -16,6 +16,8 @@ public class Solution1 {
         String s;
         int n = 0;
 
+        String hej = "hej";
+
         while ((s = br.readLine()) != null) {
             if (s.isEmpty()) {
                 if (n > max) {
